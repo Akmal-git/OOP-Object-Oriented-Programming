@@ -1,5 +1,5 @@
 <?php
 
-require './inheritance.php';
+require './Access_Modifiers.php'
 
 ?>
