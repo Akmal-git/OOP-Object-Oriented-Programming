@@ -1,4 +1,5 @@
 <?php
-require './constructor.php';
+
+require './inheritance.php';
 
 ?>
