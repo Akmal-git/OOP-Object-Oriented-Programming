@@ -41,3 +41,4 @@ class Car
 $bmw = new Car;
 $bmw->setModel("BMW M5");
 echo $bmw->model;
+?>
