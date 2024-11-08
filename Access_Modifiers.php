@@ -12,10 +12,18 @@ private- xususiyat yoki usulga FAQAT sinf ichida kirish mumkin
 -->
 
 <?php
-class Fruit {
+class Fruit
+{
   public $name;
   protected $color;
   private $weight;
+
+  public function __construct($name, $color, $weight)
+  {
+    $this->$name = $name;
+    $this->$color = $color;
+    $this->$weight = $weight;
+  }
 }
 
 $mango = new Fruit();
