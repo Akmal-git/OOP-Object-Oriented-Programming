@@ -1,5 +1,4 @@
 <?php
 
-require './Interfaces.php';
-require './Traits.php'
+require './Static_Methods_Properties.php';
 ?>
