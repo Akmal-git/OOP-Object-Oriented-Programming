@@ -23,12 +23,20 @@ class Dog
 
     public function leaf()
     {
-        echo "Hello leaf";
+        $this->run();
+        self::add(); //Sinf statik va statik bo'lmagan usullarga ega bo'lishi mumkin. 
+        //Statik usulga self kalit so'z va ikki nuqta (::) yordamida bitta sinfdagi usuldan kirish mumkin
+        return "Hello leaf";
     }
 
-    public static function add()
+    public function run()
     {
-        echo "create add text";
+        return "I`m runing";
+    }
+
+    public static function add()  // static -> o'zgrmas
+    {
+        return "create add text";
     }
 };
 
